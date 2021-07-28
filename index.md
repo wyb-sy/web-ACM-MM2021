@@ -7,7 +7,7 @@ layout: default
 </p>
 
 <p align='center'>  
-  The first row is the reference images. The second row is the generated iamges.
+  The first row is the reference images. The second row is the generated images.
 </p>
 
 # **Abstract**
