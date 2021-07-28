@@ -6,6 +6,10 @@ layout: default
   <img src='./head.jpg'/>
 </p>
 
+<p align='center'>  
+  The first row is the reference images. The second row is the generated iamges.
+</p>
+
 # **Abstract**
 
 **Pose-guided person image synthesis** aims to synthesize person images by transforming reference images into target poses. 
