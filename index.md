@@ -22,15 +22,21 @@ Besides, additional experiments on the portrait image editing task demonstrate t
 
 # **Network Architecture**
 
-
-
 ### **Deformation Estimation Module**
+
+The Deformation Estimation Module is proposed to estimate the correspondence between the reference image and the target image. 
+The Attention Correlation Estimator and the Flow Field Estimator is first employed to estimate the attention map and the flow field between the reference image and the target image. 
+Then the Combination Map Generator is used to predicts the combination maps to select from the warping results of the attention operation and the warping results of the flow-based operation.
 
 <p align='center'>  
   <img src='./deformation_estimation.jpg'/>
 </p>
 
 ### **Image Synthesis Module**
+
+The image Synthesis Module is used to synthesis the final output by rendering target skeletons with reference texture. 
+The architecture of this module is shown below. The warping block reassembles the reference neural textures according to the estimate deformations. 
+Then the vivid neural textures are added to the feature maps extracted from the target skeletons to synthesis a realistic image.
 
 <p align='center'>  
   <img src='./image_generation.jpg'/>
