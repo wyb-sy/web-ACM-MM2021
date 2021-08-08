@@ -44,6 +44,8 @@ Then the vivid neural textures are added to the feature maps extracted from the 
 
 # **Results**
 
+The In-shop Clothes Retrieval Benchmark of the DeepFashion dataset is used in our experiments which is the same as <a href="https://github.com/RenYurui/Global-Flow-Local-Attention">GFLA</a>. A total of 8570 pairs are randomly selected for testing. We provide all the qualitative results <a href="https://drive.google.com/file/d/11vpqtru1vpEXw_MCYySjfTOsNci6UHM3/view?usp=sharing">here</a>.
+
 ### **Pose-Guided Person Image Synthesis**
 
 <p align='center'>  
